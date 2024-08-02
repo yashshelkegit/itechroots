@@ -30,7 +30,7 @@ const HeroSection = () => {
       <GearIcon size={100} initialRotation={15} />
       
       <motion.div
-        className="hero-content"
+        className="hero-content "
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -41,7 +41,7 @@ const HeroSection = () => {
           animate={{ y: 0 }}
           transition={{ delay: 0.2, type: 'spring', stiffness: 120 }}
         >
-          _iTechroots
+          _iTechroots 14.0
         </motion.h1>
         <motion.p
           initial={{ y: 50, opacity: 0 }}

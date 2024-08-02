@@ -12,7 +12,7 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence mode="wait">
       <Routes>
-        <Route path="/" element={<><HeroSection /><Footer /></>
+        <Route path="/" element={<><HeroSection /></>
       } />
         <Route path="/timeline" element={<TimeLine/>}/>
         <Route path="/contact" element={<h1>Contact Page</h1>} />
